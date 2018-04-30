@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, "sans-serif"; }
+
+.canvas-container {
+    position: relative;
+    margin: 0 auto;
+    width: 805px;
+}
+
+.cnvs {
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    width: 800px;
+}
+
+.sprite {
+    display: block;
+    margin: 0 auto;
+}
+
+.example {
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 65px;
+}
+
+.arc-input {
+    position: absolute;
+    width: 40px;
+    height: 55px;
+    text-align: center;
+    font-size: 55px;
+}
+
+.sum-input {
+    padding-top: 10px;
+    width: 70px;
+    height: 55px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.input-error {
+    color: red;
+}
+
+.span-error {
+    background-color: yellow;
+}
+
+.arc-input:disabled,
+.sum-input:disabled {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
